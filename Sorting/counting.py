@@ -1,17 +1,18 @@
 def countingSort(arr):
+    if not arr:
+        return []
+
     max_val = max(arr)
     count = [0] * (max_val + 1)
 
-    while len(arr) > 0:
-        num = arr.pop(0)
+    for num in arr:
         count[num] += 1
 
+    sorted_arr = []
     for i in range(len(count)):
-        while count[i] > 0:
-            arr.append(i)
-            count[i] -= 1
+        sorted_arr.extend([i] * count[i])
 
-    return arr
+    return sorted_arr
 
 unsortedArr = [4, 2, 2, 6, 3, 3, 1, 6, 5, 2, 3]
 sortedArr = countingSort(unsortedArr)
