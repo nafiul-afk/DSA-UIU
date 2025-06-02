@@ -14,6 +14,7 @@ The algorithms are organized by topic:
   - Insertion Sort
   - Merge Sort
   - Quick Sort
+  - Counting Sort
 
 - **Searching Algorithms**
   - Linear Search
