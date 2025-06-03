@@ -19,7 +19,7 @@ The algorithms are organized by topic:
 - **Searching Algorithms**
   - Linear Search
   - Binary Search
-  - 
+    
 - **Linked List**
   - Singly
   - Doubly
