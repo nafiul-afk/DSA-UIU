@@ -49,6 +49,8 @@ The algorithms are organized by topic:
   - Sudoku Solver
 
 - **Other Topics**
+  - Stack
+  - Queue
   - Recursion Practice
   - Complexity Analysis
   - Selected Assignment/Contest Problems
