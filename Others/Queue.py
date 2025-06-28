@@ -30,4 +30,4 @@ class Queue:
       return data
 
   def isEmpty(self):
-    return self.head == None
+    return True if self.head == None else False
